@@ -1,3 +1,4 @@
+// GOOD APPROACH
 /**
  * Weather App
  * TODO: Complete getWeatherData() to return json response Promise
@@ -21,7 +22,7 @@ let API_KEY = "d67ed79ccb6c30d58329576495e31a23";
 getWeatherData = (city) => {
   const URL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
   //HINT: Use template literals to create a url with input and an API key
-  
+
   //CODE GOES HERE
   let weatherPromise = fetch(`${URL}`);
   return weatherPromise.then((response) => {    

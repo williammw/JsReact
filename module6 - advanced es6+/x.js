@@ -17,6 +17,8 @@ console.log('global',global)
 getFullName = (first,last) =>{ return `Hello, ${first}, ${last} ! have a good day`}
 console.log(getFullName('william', 'wong'))
 
+
+// good hands-on 1
 let user = [
   {
     firstName : "john",
@@ -33,6 +35,9 @@ setUser({firstName:"dman", lastName:"dafu"});
 
 let [fruit1, fruit2, fruit3 ] = ["apple", "banana", "orange","cherrie"];
 console.log(fruit1)
+
+
+// good hands-on 2
 
 let usePromise = fetch("https://");
 userPromise.then((response) => {
